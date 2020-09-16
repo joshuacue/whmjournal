@@ -1,0 +1,42 @@
+--------------CLASSES--------------
+Action.js - Action class is used to store constant variables related to Actions like behaviors, dispersal etc. for easy access using import and export.
+
+API.js - API class is used to communicate with server by importing socket.io library. All messages we need to send to server will pass through this class.
+
+Bird.js - Bird class is used to store constant variables and functions related to Birds for easy access using import and export.
+
+Dialer.js - Dialer class is used to store constant variables and functions that interacts with UI related to PIN, counting, and custom timestamp.
+
+Home.js - Home class is used to store constant variables that interacts with Home UI.
+
+ListView.js - ListView class is used to store constant variables and functions used by UI related to List (bird list, action list, behavior list, etc.).
+
+Login.js - Login class handles interaction with UI related to Login and Registration.
+
+Map.js - Map class is used to store constant variables and functions that interacts with Map UI.
+
+Menu.js - Menu class is used to store constant variables and functions that interacts with Menu UI.
+
+Navigator.js - Navigator class is used to easy navigate App screens by using single variable only. Whenever user change the string variable, it will change the app screen.
+
+Pin.js - Pin class is used to handle logging in using PIN and saving of user's pin.
+
+Timer.js - Timer class is used to store variables and functions used by Timer UI.
+
+Updater.js - Updater class is used to determine if the app needs an update. It is also used to change state of the UI when app is updating.
+
+User.js - User class is used to store variables and functions related to User like its behavior, its actions, current record you want to send to server, and current state of the User's account.
+
+--------------COMPONENTS--------------
+App.js - This is the main UI where we set navigation to all pages/screens. This is the UI also that renders the screen that we selected in navigation class.
+
+Action folder - UIs where user can select actions
+Common folder - UIs that used mostly in the app
+Dialer folder - UIs where user can set timer, counting, and pin.
+Home folder - UIs used for navigate to Home
+ListView folder - UIs where user can see list like Birds, behavior, actions etc.
+Login folder - UIs used to login / register
+Map folder - UIs used to select location on the map
+Menu folder - UIs used for navigate to Menu
+Pin folder - UIs used to login using Pin.
+Timer folder - UIs where user can set time in  any actions / behaviors.
